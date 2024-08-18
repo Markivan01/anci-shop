@@ -1,0 +1,35 @@
+body {
+    background-color: #ffbee5;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.tab {
+    background-color: #FFE6F5;
+    padding: 10px;
+    border: 5px solid #FFE6F5;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #8A426D;
+    width: 100%;
+}
+
+.tab:hover, .tab:active {
+    border-color: #f38aff;
+    text-decoration: underline;
+}
+
+#content {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ffd9f0;
+    margin: 10px;
+    text-align: center;
+}
